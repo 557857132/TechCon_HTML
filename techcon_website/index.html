@@ -9,7 +9,7 @@
   <!-- Header Section -->
   <header>
     <h1>TechCon 2024</h1>
-    <nav aria-label="Main navigation">
+    <nav>
       <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="schedule.html">Schedule</a></li>
@@ -21,20 +21,22 @@
 
   <!-- Main Content -->
   <main>
-    <section aria-labelledby="intro-heading">
-      <h2 id="intro-heading">Welcome to TechCon 2024</h2>
+    <section>
+      <h2>Welcome to TechCon 2024</h2>
       <p>
-        TechCon 2024 is the premier technology conference bringing together industry leaders, 
-        innovators, and enthusiasts from around the globe. Join us to explore the latest trends 
+        TechCon 2024 is the premier technology conference bringing together industry leaders,
+        innovators, and enthusiasts from around the globe. Join us to explore the latest trends
         in software, AI, and digital transformation while networking with top professionals.
       </p>
 
-      <!-- Promotional Video -->
-      <video controls width="640">
+      <!-- Embedded Promotional Video -->
+      <video controls width="640" height="360">
+        <!-- 🔑 Make sure you actually include a file named techcon-promo.mp4 in the same folder -->
         <source src="techcon-promo.mp4" type="video/mp4">
+        <!-- Simple subtitles track for accessibility -->
         <track src="techcon-subtitles.vtt" kind="subtitles" srclang="en" label="English">
-        Sorry, your browser does not support the video tag. 
-        <a href="techcon-promo.mp4">Download the video here</a>.
+        <!-- Fallback message -->
+        Your browser does not support the video tag.
       </video>
     </section>
   </main>
